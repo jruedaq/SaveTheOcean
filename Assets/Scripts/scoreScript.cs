@@ -19,6 +19,6 @@ public class scoreScript : MonoBehaviour
     void Update()
     {
       timePlayed += Time.deltaTime;
-        score.text = "Score: " + scoreValue;
+        score.text = "Puntos: " + scoreValue;
     }
 }

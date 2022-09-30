@@ -27,7 +27,7 @@ public class endOfGame : MonoBehaviour
     {
       Debug.Log("hi from EndGame in endOfGame");
       health = endText.GetComponent<Text>();
-      health.text = "Well done! youve managed to get rid of alot of stuff! infact, our arbitrary point systems says that you've got " + points + " points after playing for " + Survivetime + " seconds";
+      health.text = "¡Bien hecho! ¡Te las has arreglado para deshacerte de un montón de cosas! en total recogiste " + points + " basuritas después de " + Survivetime + " segundos";
       image.SetActive(true);
       button.SetActive(true);
 
