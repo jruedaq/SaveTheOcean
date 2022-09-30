@@ -21,7 +21,7 @@ public class spawner : MonoBehaviour
               entityList.Add(new entity(50, 0, true, i));
               break;
             case "plastic":
-              entityList.Add(new entity(150, 250, false, i));
+              entityList.Add(new entity(150, 1, false, i));
               break;
             default:
               Debug.Log("unknown prefab");
