@@ -46,11 +46,11 @@ public class pendulum : MonoBehaviour
         // {
         //     boatSpeed += Time.deltaTime * boatPower;
         // }
-        if (Input.GetKey("w") && ropeLength > minLength)
+        if (Input.GetKey("up") && ropeLength > minLength)
         {
             ropeLength -= Time.deltaTime * winchPower;
         }
-        if (Input.GetKey("s") && ropeLength < maxLength)
+        if (Input.GetKey("down") && ropeLength < maxLength)
         {
             ropeLength += Time.deltaTime * winchPower;
         }
